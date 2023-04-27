@@ -1,0 +1,40 @@
+{
+  "root": "./src",
+  "title": "使用说明",
+  "links" : {
+  },
+  "plugins": [
+    "toggle-sidebar-url",
+    "expandable-chapters-small",
+    "tbfed-pagefooter",
+    "hide-element",
+    "expandable-chapters-small",
+    "pre-html",
+    "custom-favicon",
+    "-lunr", "-search", "search-pro",
+    "lightbox"
+  ],
+  "pluginsConfig": {
+    "favicon": "src/assets/favicon.ico",
+    "tbfed-pagefooter": {
+      "copyright":"宁做太平狗，不做乱世人",
+      "modify_label": "文件修订于：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "hide-element": {
+      "elements": [".gitbook-link"]
+    },
+    "pre-html": {
+      "hidePoweredBy": true,
+      "file-link": true
+    },
+    "lightbox": {
+      "includeJQuery": false,
+      "sameUuid": true,
+      "options": {
+          "resizeDuration": 500,
+          "wrapAround": false
+      }
+    }
+	}
+}
